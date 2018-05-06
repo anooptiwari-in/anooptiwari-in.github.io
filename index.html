@@ -11,7 +11,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
+  max-width: 400px;
   position: relative;
   margin: auto;
 }
@@ -87,7 +87,7 @@ img {vertical-align: middle;}
    
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 500px;
+  max-width: 400px;
   margin: auto;
   text-align: center;
   font-family: arial;
@@ -123,8 +123,9 @@ button:hover, a:hover {
 </style>
 </head>
 <body>
-<font face="arial"><h2 style="text-align:center">Welcome to My GitHub Profile</h2></font>
+<font face="arial" size="15"><h2 style="text-align:center">Welcome to My GitHub Profile</h2></font>
 
+  <div class="card">
   <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
@@ -144,8 +145,7 @@ button:hover, a:hover {
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-<br>
- 
+</div> 
   <div class="card">
   <h1>Anoop Tiwari</h1>
   <p class="title">Software Engineer, LTI</p>
@@ -186,6 +186,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+  
 </script>
 </body>
 </html>
